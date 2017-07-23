@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HipchatCS", "HipchatCS\HipchatCS.csproj", "{007C4650-CA8D-4DC2-824D-80040810D368}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{007C4650-CA8D-4DC2-824D-80040810D368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007C4650-CA8D-4DC2-824D-80040810D368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007C4650-CA8D-4DC2-824D-80040810D368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007C4650-CA8D-4DC2-824D-80040810D368}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
