@@ -1,0 +1,13 @@
+
+dependencies:
+  pre: 
+   - sudo service docker start; sudo service docker status; sudo docker -v; sudo docker info; 
+   
+  post:
+   - sudo docker build -t=hipchatcs .
+   - sudo docker run --name hipchatcs_container -v /home/ubuntu:/app -d hipchatcs
+   - sudo docker save -o $CIRCLE_ARTIFACTS/hipchatcs_container.tar hipchatcs_container
+
+test:
+  override:
+  - docker images | grep hipchatcs 
